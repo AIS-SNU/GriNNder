@@ -1,10 +1,8 @@
-# GriNNder
+# GriNNder [![MLSys 2026](https://img.shields.io/badge/MLSys-2026-blue)](#citation) [![Paper](https://img.shields.io/badge/OpenReview-8SNPzGRldN-blue)](https://openreview.net/forum?id=8SNPzGRldN) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **[MLSys 2026] GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading**
 
-[![MLSys 2026](https://img.shields.io/badge/MLSys-2026-blue)](#citation)
-[![Paper](https://img.shields.io/badge/OpenReview-8SNPzGRldN-blue)](https://openreview.net/forum?id=8SNPzGRldN)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 GriNNder trains full-graph GNNs on graphs whose activations/gradients exceed GPU memory by
 coordinating GPU memory, host RAM, and NVMe storage.
